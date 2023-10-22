@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact Details</title>
+    <link rel="icon" type="image/png" href="./img/favicon-32x32.png" sizes="32x32" />
+    <link rel="normalize" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1>Contact</h1>
+<header class="page-header">
+    <img src="./img/favicon-32x32.png" alt="logo letter J in black" class="logo">
+    <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+            <li role="presentatiom">
+                <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+            </li>
+            <li role="presentation">
+                <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+            <li role="presentatiom">
+                <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+            </li>
+            </li>
+            <li role="presentatiom">
+                <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <form action="" method="post" id="contact-form">
+        <label class="standard-label" for="contact-email">E-mail: </label>
+        <input type="email" id="contact-email" required>
+
+        <label class="standard-label" for="Telephone">Telephone: </label>
+        <input type="tel" id="Telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+   
+        <label class="standard-label" for="Message">Message: </label>
+        <textarea id="Message" maxlenght="240" required></textarea>
+
+        <input type="submit" value="Send message">
+    </form>
+
+    <h2>Residential Adress</h2>
+    <p>Mor Åses vei 14</p>
+    <p>4019 Stavanger</p>
+    <p>Norway</p>
+    <br>
+        <a href="tel: +47 4635 0996">Tel: +47 4635-0996</a>
+    <br>
+        <a href="mailto:jp.cordao@gmail.com">E-mail: jp.cordao@gmail.com</a>
+    <br>
+        <a href="mailto:jp.cordao@gmail.com">Contact me</a>
+</main>
+<div>
+    <p><a href="index.html">Back to Home</a></p>
+</div>
+    <script src="js/tota11y.min.js"></script>
+</body>
+
